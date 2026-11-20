@@ -1,0 +1,109 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ff9b61;
+  color: #440909;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 6px;
+}
+
+h1, h2, h3 {
+  color: #440909;
+  line-height: 1.3;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.cartao {
+  background-color: #ff9b61;
+  color: #440909;
+  border: 3px solid #440909;
+  border-radius: 12px;
+  padding: 10px 40px 40px;
+  
+}
+
+.area-imagem {
+  margin-bottom: 1em;
+}
+
+.foto-destaque {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+input:focus, button:focus {
+  outline: 2px solid #0047b3;
+  outline-offset: 4px;
+}
+
+input[type="text"],
+input[type="email"] {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+  padding: 14px;
+  font-size: 20px;
+  background-color: #f5f0e1;
+  color: #000000;
+  border: 1px solid #440909;      
+  border-radius: 8px;
+}
+
+fieldset {
+  border: 3px solid #440909;
+  border-radius: 8px;
+  padding: 10px 20px 16px;
+  margin: 0 0 24px;
+}
+
+legend {
+  padding: 0 8px;
+}
+
+ul li {
+  margin-bottom: 0.6em;
+}
+
+.area-botao {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.btn {
+  background-color: #440909;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #830b0b;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+footer {
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.centro {
+  text-align: center;
+}

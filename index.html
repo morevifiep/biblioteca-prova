@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Comunitária</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+</body>
+</html>
+
+<body>
+    <h1>Biblioteca Comunitária</h1>
+    <main class="cartao">
+               <h2>Empréstimo de livros</h2>
+
+        <div class="area-imagem">
+            <img src="images/biblioteca.jpg" alt="Imagem de uma grande estante de livros, preenchida completamente com exemplares bem surrados, visualmente bem usados." class="foto-destaque">
+        </div>
+
+        <p>Reserve seu livro favorito gratuitamente.</p>
+
+        <form action="#" method="post">
+            <h3>Seu nome:</h3>
+
+            <p>
+                <label for="nome-visitante"><b>Nome completo:</b></label>
+                <input type="text" id="nome-leitor" name="nome" placeholder="Digite seu nome">
+            </p>
+
+            <p>
+                <label for="email-visitante"><b>Seu e-mail:</b></label>
+                <input type="email" id="email-leitor" name="email" placeholder="Digite seu e-mail">
+            </p>
+
+
+
+<fieldset>
+  <legend><b>Tipo de retirada:</b></legend>
+
+  <input type="radio" id="retirada-balcao" name="tipo-entrega" value="casa">
+  <label for="entrega-casa">Retirar no balcão</label><br>
+
+  <input type="radio" id="entrega-casa" name="tipo-entrega" value="loja">
+  <label for="entrega-loja">Entrega em casa</label>
+</fieldset>
+
+
+            <fieldset>
+                <legend><b>Gêneros favoritos:</b></legend>
+                <input type="checkbox" id="check1" name="ficcao" value="ficcao">
+                <label for="check1">Ficção</label><br>
+                                <input type="checkbox" id="check1" name="tecnologia" value="tecnologia">
+                <label for="check1">Tecnologia</label><br>
+
+            </fieldset>
+
+            <div class="area-botao">
+                <button type="submit" class="btn">Confirmar reserva</button>
+            </div>
+        </form>
+
+    </main>
+
+    <footer>
+        <p class="centro"><small>©Projeto Biblioteca - 2026</small></p>
+    </footer>
+</body>
+</html>
